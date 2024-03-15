@@ -1,3 +1,5 @@
+.vidyolov8.mp4
+.yolov8s.pt
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
