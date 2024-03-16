@@ -77,8 +77,8 @@ while True:
                 area_c.add(id)
 
     cv2.polylines(frame, [np.array(area, np.int32)], True, (255,164,58), 3)
-    count= len(area_c)
-    cv2.putText(frame, str(count), (67, 147), cv2.FONT_HERSHEY_COMPLEX, 2, (117,158,255), 1)
+    text= "Carros: " + str(len(area_c))
+    cv2.putText(frame, text, (67, 147), cv2.FONT_HERSHEY_COMPLEX, 1, (255,255,255), 1)
     cv2.imshow("RGB", frame)
 
     if cv2.waitKey(1) & 0xFF == 27:
