@@ -1,5 +1,10 @@
-# opencv-studysession
-Repo com o objetivo de estudar um pouco mais sobre visão computacional com Python utilizando a biblioteca opencv
+# Projeto realizado com o objetivo de estudar um pouco mais sobre visão computacional com Python utilizando a biblioteca opencv
+Ele consiste em um algoritmo que detecta apenas os carros no video e conta quantos deles passam na área demarcada para contagem
+
+## Exemplo do projeto rodando:
+
+![script_gif](https://github.com/nlemuel/opencv-studysession/assets/53242511/0006d316-7c72-4112-8141-3b7810116052)
+
 
 
 
