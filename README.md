@@ -12,6 +12,8 @@ Ele consiste em um algoritmo que detecta apenas os carros no video e conta quant
 
 **Cerifique-se** tenha em sua máquna os seguintes requisitos:
 
+- **Baixe o vídeo para análise: https://mega.nz/file/8sNh0IzL#jMEYQuK7i7zyWsIvH7XMfaHDIEeWg44bdIZ56XbJLsI**
+
 - **Git** 
 
 - **Python** 
