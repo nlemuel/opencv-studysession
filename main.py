@@ -44,11 +44,9 @@ while True:
 
     results = model.predict(frame)
 
-    # Extrair coordenadas xyxy e classes
     boxes = results[0].boxes.xyxy
     classes = results[0].boxes.cls
 
-    # Criar um DataFrame com as coordenadas xyxy e classes
     df = pd.DataFrame({
         'x1': boxes[:, 0],
         'y1': boxes[:, 1],
@@ -57,7 +55,6 @@ while True:
         'class': [model.names[int(c)] for c in classes]
     })
 
-    # Desenhar as caixas delimitadoras e as classes no frame
     for index, row in df.iterrows():
         x1, y1, x2, y2, c = row
 
